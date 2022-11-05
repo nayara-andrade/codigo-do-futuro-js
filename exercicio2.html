@@ -1,17 +1,11 @@
-
 <script>
-
-    alert ("Qual o seu nome?")
-    nome = prompt()
+    nome = prompt("Qual o seu nome?")
     
-    alert("Insira o valor do Alvejante:")
-    alvejante = prompt()
-    alert("Insira o valor do Sabão em Pó:")
-    sabaoEmPo = prompt()
-    alert("Insira o valor do Sabonete:")
-    sabonete = prompt()
+    alvejante = Number(prompt("Insira o valor do Alvejante:"))
+    sabaoEmPo = Number(prompt("Insira o valor do Sabão em Pó:"))
+    sabonete = Number(prompt("Insira o valor do Sabonete:"))
     
-    total = alvejante + sabaoEmPo + sabonete
+   total = alvejante + sabaoEmPo + sabonete
 
-    alert(`Olá! ${nome}, \n o valor de sua compra é de: R$ ${total}`)
+    alert(`Olá! ${nome}, \nO valor de sua compra é de: R$ ${total}`)
 </script>
