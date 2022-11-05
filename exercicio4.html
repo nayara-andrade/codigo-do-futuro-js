@@ -1,0 +1,23 @@
+<!-- O professor quer saber se o aluno está aprovado ou reprovado -->
+
+    <script>
+
+    nome = prompt("Insira o nome do aluno:")  
+
+    alert(`Vamos calcular a Nota Media do(a) ${nome}!`)
+    
+    nota1 = Number(prompt("Insira a Nota 1:"))
+    nota2 = Number(prompt("Insira a Nota 2:"))
+    nota3 = Number(prompt("Insira a Nota 3:"))
+    nota4 = Number(prompt("Insira a Nota 4:"))
+    
+    result = (nota1 + nota2 + nota3 + nota4) / 4
+
+    if(result >= 5) {
+        alert (`Aluno(a) ${nome} esta Aprovado! Sua media eh ${result}.`)
+    }
+    else{
+        alert (`Aluno(a) ${nome} esta Reprovado! Sua media eh ${result}.`)
+    }
+     
+    </script>
