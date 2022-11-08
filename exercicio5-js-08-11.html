@@ -1,0 +1,21 @@
+<script>
+nome = prompt ("Olá! Digite seu nome:")
+valor = Number(prompt (`${nome}, Digite o valor você tem para viajar:`))
+alert ("Escolha para qual lugar você gostaria de viajar: Disney, Madrid, Maceió ou Rib. Preto." )
+lugar = prompt (`${nome}, Digite o lugar para o qual você gostaria de viajar:`)
+
+if (lugar == "Disney" && valor == 15000) {
+    alert ("Você pode viajar para a Disney!!")
+}
+if else (lugar == "Madrid" && valor == 12000) {
+    alert ("Você pode viajar para a Madrid!!")
+}
+if else (lugar == "Maceió" && valor == 8000) {
+    alert ("Você pode viajar para a Maceió!!")
+}
+if else (lugar == "Rib. Preto" && valor == 5000) {
+    alert ("Você pode viajar para a Rib. Preto!!")
+}
+else {
+    alert (`Você pode não viajar para ${lugar} e precisa economizar x (nao consegui fazer essa parte)!!`)
+}
